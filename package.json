@@ -1,16 +1,30 @@
 {
-  "name": "scratch",
+  "name": "react-scratch",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React starter package with webpack.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "webpack-dev-server --mode development",
+    "init": "npm install && npm test",
+    "test": "webpack-dev-server --mode development",
     "build:development": "webpack --mode development"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossphoton/react-template.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "starter",
+    "boilerplate",
+    "react-boilerplate"
+  ],
+  "author": "Aditya Agrawal",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossphoton/react-template/issues"
+  },
+  "homepage": "https://github.com/crossphoton/react-template#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",

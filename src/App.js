@@ -1,11 +1,10 @@
-import React from 'react'
-import NavBar from '../backup/components/js/navbar'
-import { hot } from 'react-hot-loader'
+import React from 'react';
+import { hot } from 'react-hot-loader';
 
 function App(){
     return(
-        <div className="navbar-container">
-            <NavBar />
+        <div className="main">
+            <h1>React starter by <a href="https://www.github.com/crossphoton">crossphoton</a></h1>
         </div>
     )
 }
