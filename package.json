@@ -1,7 +1,7 @@
 {
   "name": "react-scratch",
   "version": "1.0.0",
-  "description": "React starter package with webpack.",
+  "description": "React starter package with hotreload. Uses 'webpack' and 'babel'.",
   "main": "src/index.js",
   "scripts": {
     "init": "npm install && npm test",
