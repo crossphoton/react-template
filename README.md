@@ -1,6 +1,6 @@
 # React Template
 
-This template is provided by [crossphoton](https://www.github.com/crossphoton) uses wepack and babel for the app. This is ready to use as soon as after cloning.
+This template, provided by [crossphoton](https://www.github.com/crossphoton), uses **wepack** and **babel** for the app. This is ready to use as soon as after cloning.
 
 Run `npm run init` to get started.
 
